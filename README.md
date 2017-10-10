@@ -4,8 +4,8 @@ Random Dockerfile for randomly exiting a random container with a random exit cod
 
 ### Tags:
 
-* [0.1](0.1)
-* [latest](0.1)
+* [1.0](1.0)
+* [latest](1.0)
 
 ### Usage:
 
