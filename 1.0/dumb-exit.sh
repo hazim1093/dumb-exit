@@ -9,6 +9,13 @@ random_upper_limit=${EXIT_CODE_UPPER_LIMIT:-200};
 
 wait_lower_limit=${WAIT_LOWER_LIMIT:-10};
 wait_upper_limit=${WAIT_UPPER_LIMIT:-60};
+exit_code=${EXIT_CODE};
+
+if [ ! -z ${exit_code} ];
+then
+  echo "Exiting with custom exit code: ${exit_code}";
+  exit ${exit_code};
+fi;
 
 # Fill array with random numbers
 i=1;

@@ -4,8 +4,7 @@ Random Dockerfile for randomly exiting a random container with a random exit cod
 
 ### Tags:
 
-* [1.0](1.0)
-* [latest](1.0)
+* [1.0, latest](1.0)
 
 ### Usage:
 
@@ -27,3 +26,9 @@ With custom lower and upper limits of exit codes:
 ```
 docker run -d -e EXIT_CODE_LOWER_LIMIT=1 -e EXIT_CODE_UPPER_LIMIT=5 hazim/dumb-exit
 ```
+
+With custom exit code and no random randomness ( :( ):
+```
+docker run -d -e EXIT_CODE=0 hazim/dumb-exit;
+```
+
