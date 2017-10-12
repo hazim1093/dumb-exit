@@ -9,6 +9,7 @@ Random Dockerfile for randomly exiting a random container with a random exit cod
 ### Usage:
 
 This docker image can be used for the purpose of testing an application or component's behavior, which deals with docker containers that run and exit.
+With this you can easily test exiting docker containers in your application/setup.
 
 #### Note: The probability of the container to exit with exit code 0 is 50% on purpose.
 
